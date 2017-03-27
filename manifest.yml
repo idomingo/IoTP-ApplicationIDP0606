@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoTP-ApplicationIDP0606
+  host: IoTP-ApplicationIDP0606
+  disk_quota: 1024M
+  services:
+  - IoTP-ApplicationIDP0606-cloudantNoSQLDB
+  - IoTP-ApplicationIDP0606-iotf-service
